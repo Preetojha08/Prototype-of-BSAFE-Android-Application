@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_ndisasters"
+            android:icon="@drawable/flood"
+            android:title="Natural Disasters" />
+        <item
+            android:id="@+id/nav_manmadedisasters"
+            android:icon="@drawable/manmadedisaster"
+            android:title="Man Made Disasters" />
+        <item
+            android:id="@+id/nav_ndma"
+            android:icon="@drawable/ndma"
+            android:title="NDMA" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="Help line Numbers " />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/kit"
+                android:title="Disasters Emergency kit" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Emergency Help" />
+        </menu>
+    </item>
+
+</menu>
